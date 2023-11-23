@@ -6,7 +6,7 @@
 /*   By: eamrati <eamrati@student.42.fr>            +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/11/23 10:46:58 by eamrati           #+#    #+#             */
-/*   Updated: 2023/11/23 10:58:17 by eamrati          ###   ########.fr       */
+/*   Updated: 2023/11/23 18:50:11 by eamrati          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -81,7 +81,7 @@ int	runcheck_ps(t_stack **stack_a)
 
 	arr = generate_buffer();
 	if (!arr)
-		return (0);
+		return (1);
 	sv = ft_strlen(arr);
 	svarr = arr;
 	stack_b = 0;
